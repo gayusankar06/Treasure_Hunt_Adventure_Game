@@ -1,74 +1,86 @@
-#🎯 Treasure Hunt Adventure Game
-A fun, text-based Java game where you explore, collect coins, and survive until you become the ultimate treasure hunter!
-Make the right choices, keep your health up, and gather enough coins to win.
+# 🎯 Treasure Hunt Adventure
 
-##📜 Description
-The Treasure Hunt Adventure is a console-based interactive game built in Java.
-Players start with a fixed amount of health and zero coins.
-They can choose actions like exploring, fighting enemies, or resting.
-The game ends when the player reaches the winning coins goal or loses all health.
+A fun **Java console game** where you fight monsters, search for treasure, and manage your health to survive. Your mission: **collect 100 coins before your health reaches zero!**
 
-##✨ Features
-🎮 Interactive gameplay with multiple choices
+---
 
-💰 Coin collection system for winning
+## 📜 Description
+Treasure Hunt Adventure is an interactive Java-based console game designed for beginners to practice conditional logic, loops, and user input handling. The player can choose from different actions each turn, each with different consequences for health and coins. Win by reaching **100 coins** or lose if **health reaches 0**.
 
-❤️ Health system for survival
+---
 
-🎯 Win/Loss conditions
+## ✨ Features
+- 🗡 **Fight monsters** → -20 health, +10 coins  
+- 💎 **Search for treasure** → -10 health, +20 coins  
+- 🛌 **Rest** → +15 health, -5 coins  
+- 🎯 **Win** → Collect 100 coins  
+- 💀 **Lose** → Health reaches 0  
 
-🖥 Runs on any Java-supported environment
+---
 
-##🛠 Technical Details
-Tech Stack
-Language: Java (JDK 8+)
+## 🛠 Tech Stack
+- **Language:** Java (JDK 8+)  
+- **IDE Options:** IntelliJ IDEA, Eclipse, or VS Code  
+- **Tools:** Git, GitHub  
 
-IDE: IntelliJ IDEA / VS Code / Eclipse
+---
 
-Version Control: Git & GitHub
+## 📂 Project Structure
+Treasure-Hunt-Adventure/
+│
+├── src/
+│ └── TreasureHuntAdventure.java # Main game source code
+│
+├── README.md # Project documentation
+└── LICENSE # License file
 
-Build Tool: javac (Java Compiler)
+## ▶ How to Run
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/username/Treasure-Hunt-Adventure-Game.git
+2. Open in an IDE (IntelliJ IDEA, Eclipse, VS Code)
 
-##🚀 How to Play
-1️⃣ Clone the Repository
-bash
-git clone https://github.com/your-username/Treasure-Hunt-Adventure-Game.git
-2️⃣ Navigate to Source Folder
-bash
-cd Treasure-Hunt-Adventure-Game/src
-3️⃣ Compile the Game
-bash
+3. Go to src folder, open TreasureHuntAdventure.java
+
+4. **Compile and Run**
+
+```bash
 javac TreasureHuntAdventure.java
-4️⃣ Run the Game
-bash
 java TreasureHuntAdventure
 
-##📌 Game Rules
-Start with 100 health and 0 coins
+## 🎮 Gameplay Example
 
-Choose actions:
-
-Explore (chance to find coins or lose health)
-
-Fight enemies (risk losing health but gain coins)
-
-Rest (recover health, but lose time)
-
-Win by collecting 100 coins
-
-Lose if health reaches 0
-
-##Output:
 ======== 🎉 Welcome to the Treasure Hunt 🎉 ========
 Health: 100 | Coins: 0
-Choose an action: 1. Explore  2. Fight  3. Rest
-...............
+Choose an action:
+1. Fight Monster
+2. Search Treasure
+3. Rest
+Your choice: 1
+You fought bravely and won! Health: 80, Coins: 10
 
-##📄 License
+📌 Learning Objectives
+Implement loops and conditional statements in Java
+
+Work with user input (Scanner class)
+
+Handle game logic using variables
+
+📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-##🤝 Contributing
+🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-##💡 Author
-Developed by Gayathri🚀
+📧 Contact
+Created by Gayathri – feel free to reach out!
+
+
+
+
+
+
+
+
+
+
