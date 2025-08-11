@@ -34,6 +34,7 @@ Treasure-Hunt-Adventure/
 ├── README.md # Project documentation
 └── LICENSE # License file
 
+
 ## ▶ How to Run
 1. **Clone this repository**
    ```bash
@@ -48,7 +49,7 @@ Treasure-Hunt-Adventure/
 javac TreasureHuntAdventure.java
 java TreasureHuntAdventure
 
-## 🎮 Gameplay Example
+🎮 Gameplay Example
 
 ======== 🎉 Welcome to the Treasure Hunt 🎉 ========
 Health: 100 | Coins: 0
