@@ -48,7 +48,9 @@ Treasure-Hunt-Adventure/
 ```bash
 javac TreasureHuntAdventure.java
 java TreasureHuntAdventure
----
+
+
+
 🎮 Gameplay Example
 
 ======== 🎉 Welcome to the Treasure Hunt 🎉 ========
